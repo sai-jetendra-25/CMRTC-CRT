@@ -9,8 +9,8 @@ public class NaturnalNum {
     }
     public static void Natural_NUM(int n){
         if(n==0) return ;
-        System.out.print(n+" ");
         Natural_NUM(n-1);
+        System.out.print(n+" ");
 
     }
     
