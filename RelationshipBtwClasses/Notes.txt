@@ -1,0 +1,28 @@
+Relationship Between Classes: 
+        Inner Classes
+
+Inner Classes:
+    ->the process of declaring a class with in class are know as Inner classes or nested classes'.
+Types:-
+    ->Member inner class
+    ->Anonymous Inner class
+Member Inner :
+    ->The inner classes declared as member with in another class is know as member inner class.
+    ->Static member inner class.
+    ->non-Static member inner class.
+Staticmember inner class:
+    ->An inner class Declared with in class and Outside of Methods Using Statickeyword is know Static member inner class
+
+                                                                           
+ Syntax:-                                   
+        class Outerclass{
+            Static class InnerClass{
+
+            }
+         }
+
+
+->All the Instance method declared with Static innerClass will behave like static method(wrt to outer class)
+
+Syntax:-
+     OuterClassName.InnerClassName ob=new OuterClassName.InnerClassName();
