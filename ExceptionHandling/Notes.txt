@@ -1,0 +1,17 @@
+Notes: 
+UnChecked Exception:
+        ->Exception which are not identified at complie time.
+        ->ArrayIndexOutOfBoundsException.
+        ->NegativeArraySizeException.
+        ->NumberFormatException.
+        ->ArithemeticException.
+        ->userDefined.
+Steps to Create UnCheckedException:
+        ->The use defined Exception class must be extended from java.lang.Exception class.
+        ->The use defined class must be declared with parameterized constructor with string as parameter.
+            This constructor will pass the message to parent class Exception.
+        ->Use try and catch block.
+        ->defined a condition to raise  Exception.
+        ->If the condition is true, raise an Exception
+            (Mean Create and object for the class where the Exception is raised and while creating the object  pass the the message as parameter.)
+        ->throw the Exception onto catch block using 'throw' keyword.
