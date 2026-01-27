@@ -15,3 +15,6 @@ Steps to Create UnCheckedException:
         ->If the condition is true, raise an Exception
             (Mean Create and object for the class where the Exception is raised and while creating the object  pass the the message as parameter.)
         ->throw the Exception onto catch block using 'throw' keyword.
+CheckedException:
+        ->Exceptionwhich are identified at compile time
+        ->The method signature is added with 'throws' Keyword, which is specify to ignore the Exceptionin the current method and raise at method call

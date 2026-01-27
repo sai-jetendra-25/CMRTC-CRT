@@ -1,20 +1,21 @@
+
 package ExcepHandling.CheckedException;
 
 import java.util.Scanner;
 
-
 class PriceException extends Exception {
 
-	public PriceException(String msg) {
-		super(msg); 
+    public PriceException(String msg) {
+        super(msg);
 
-} 
+    }
 }
-class QtyException extends Exception{ 
-	public QtyException(String msg) {
-		super(msg);
-		}
-	}
+
+class QtyException extends Exception {
+    public QtyException(String msg) {
+        super(msg);
+    }
+}
 
 public class DemoUnCheck {
 
@@ -54,7 +55,6 @@ public class DemoUnCheck {
                     System.out.println("Re-enter details for this book\n");
                 }
             }
-            
 
             System.out.println("\n--- Book Details ---");
             for (BookDetails temp : b) {
@@ -63,7 +63,6 @@ public class DemoUnCheck {
 
         } catch (Exception e) {
 
-            
             System.out.println(e);
 
         } finally {
