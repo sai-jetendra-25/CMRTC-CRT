@@ -23,5 +23,10 @@ public class Circle {
     float areaOfCircle (Circle c){
         return (float) (Math.PI*Math.pow(c.radius,2));
     }
+    public static void main(String[] args) {
+       
+
+        
+    }
     
 }

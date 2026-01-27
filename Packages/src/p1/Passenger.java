@@ -1,4 +1,4 @@
-gitpackage p1;
+package p1;
 
 public class Passenger {
    public  String name,seat;

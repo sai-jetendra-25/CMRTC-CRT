@@ -1,5 +1,5 @@
-package ExceptionHandling;
-public class ArthimeticException {
+package ExcepHandling;
+public class ArthimeticExcep {
 
     public static void main(String[] args) {
         int a = 2;

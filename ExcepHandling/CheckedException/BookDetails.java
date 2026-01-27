@@ -1,4 +1,4 @@
-package ExceptionHandling.CheckedException;
+package ExcepHandling.CheckedException;
 
 
 public class BookDetails {
@@ -11,6 +11,7 @@ public class BookDetails {
 		this.price=price2;
 		this.qty=qty2;
 	}
+	@Override
 public String toString() {
 	return "BookDetails [code="+code+",name="+name+",price="+price+",qty="+qty+"]"; 
 }
