@@ -1,8 +1,8 @@
 Relationship Between Classes: 
-        Inner Classes
+                                Inner Classes
 
 Inner Classes:
-    ->the process of declaring a class with in class are know as Inner classes or nested classes'.
+    ->the process of declaring a class with in class are know as Inner classes or nested classes.
 Types:-
     ->Member inner class
     ->Anonymous Inner class
@@ -10,19 +10,42 @@ Member Inner :
     ->The inner classes declared as member with in another class is know as member inner class.
     ->Static member inner class.
     ->non-Static member inner class.
-Staticmember inner class:
-    ->An inner class Declared with in class and Outside of Methods Using Statickeyword is know Static member inner class
 
-                                                                           
- Syntax:-                                   
-        class Outerclass{
-            Static class InnerClass{
+Static member inner class:
+    ->An inner class Declared with in class and Outside of Methods Using Statickeyword is know Static member inner class                                                                         
 
+        Syntax:-                                   
+            class Outerclass{
+                Static class InnerClass{
+
+                }
             }
-         }
+
+    ->All the Instance method declared with Static innerClass will behave like static method(wrt to outer class)
 
 
-->All the Instance method declared with Static innerClass will behave like static method(wrt to outer class)
+        Syntax:-
+                    OuterClassName.InnerClassName ob=new OuterClassName.InnerClassName();
 
-Syntax:-
-     OuterClassName.InnerClassName ob=new OuterClassName.InnerClassName();
+    ->The methods of static member inner class can access only static members of outer directly.
+
+
+Non Static member Inner class:
+     the inner classes decleared without Static keyword are know as non static member inner Class.
+     ->Instance member inner class.
+     ->Local member inner class.
+
+Instance Member inner class:
+    The non static member inner class declared outside of method know as Instance member inner class.
+    -> The instance  memberof Instance member inner class can access  all members of outer class directly.
+    ->The static member if Instance inner cladd can access only static member of Outer directly.
+
+        Syntax:-
+            outerClass ob =new OuterClass();
+            OuterClass.InnerClass ob2=ob.new InnerClass();
+    
+
+Local Member Inner Classes:
+    An member inner class declared with method of Outer class are know as Local Member inner class.
+    ->If a local member ineer class in declared within static methos of outer class then it behaves like static member inner class.
+    ->If a local member inner class is declared within instance method of outer class then it behaves like instance member inner class.
