@@ -1,0 +1,17 @@
+Functiona Interface:
+    An inerface consists of only one abstract method it is called Functiona Interface
+
+    Syntax:
+    interface InterfaceName{
+        void methodName();
+    }
+
+Lambda Expression: An method which is declared without method name is called lambada Expression.
+        Syntax:
+          
+          (ParaList)->{
+
+            //method body
+
+          }
+This lamdba Expression works like a method body for abstract method from Functionainterfaces.
