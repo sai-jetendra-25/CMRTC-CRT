@@ -71,3 +71,54 @@ class Child extends Parent{
 
     }
 }
+public class Main{
+    public static void main(String[] args){
+        Parent p=new child();
+    }
+}
+
+
+
+Anonymous InnerClass:- An inner class declared along with the object creation of another class which does't hava name 
+is called Anonymousinner class
+
+        Syntax:
+        ClassName ob=new ClassName(){
+            //Anonymous inner class
+        }; 
+
+class Parent{
+    void features(){
+        System.out.println("THis has CR");
+    }
+    void m1(){
+
+    }
+    void m2(){
+
+    }
+}
+class Child extends Parent{
+    @override
+    void features{
+        System.out.println(" This CRUD");
+    }
+    void m3(){
+
+    }
+}
+public class Main{
+    public static void main(String[] args){
+        Parent p=new child(){
+        void features(){
+             System.out.println("CRUD");
+        }
+        void m3(){
+
+        }
+    };
+    p.m2(){
+        
+    }
+}
+}
