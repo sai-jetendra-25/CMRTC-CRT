@@ -49,3 +49,25 @@ Local Member Inner Classes:
     An member inner class declared with method of Outer class are know as Local Member inner class.
     ->If a local member ineer class in declared within static methos of outer class then it behaves like static member inner class.
     ->If a local member inner class is declared within instance method of outer class then it behaves like instance member inner class.
+  
+Simple code Inheritance:----------------
+class Parent{
+    void features(){
+        System.out.println("THis has CR");
+    }
+    void m1(){
+
+    }
+    void m2(){
+
+    }
+}
+class Child extends Parent{
+    @override
+    void features{
+        System.out.println(" This CRUD");
+    }
+    void m3(){
+
+    }
+}
