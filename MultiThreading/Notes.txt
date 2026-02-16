@@ -1,0 +1,6 @@
+Life Cycle of Thread:
+    0-new
+    1-Runnable
+    2-Blocked
+    3-Waiting or TimedWaiting
+    4-Terminated
