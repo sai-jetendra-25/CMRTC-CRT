@@ -2,6 +2,7 @@ interface Icompare{
     int compare(int a,int b);
 }
 class Greater implements Icompare{
+    @Override
     public int compare(int a ,int b){
         if(a>b) return a;
         else return b;
@@ -9,6 +10,7 @@ class Greater implements Icompare{
 }
 
 class Smaller implements Icompare{
+    @Override
     public int compare(int a ,int b){
         if(a<b) return a;
         else return b;

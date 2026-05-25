@@ -30,7 +30,7 @@ public class Point {
     static Point midPoint(Point p1,Point p2){
         return new Point((p1.x+p2.x)/2 ,(p1.y+p2.x,2));
     }
-    static 
+    
 
 
     

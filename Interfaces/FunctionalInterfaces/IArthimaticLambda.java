@@ -1,7 +1,7 @@
 package FunctionalInterfaces;
 
 interface IArthimatic {
-    int compare(int a,int b);
+    int process(int a,int b);
 }
 
 public class IArthimaticLambda {
@@ -13,10 +13,10 @@ public class IArthimaticLambda {
       IArthimatic Multi=(int a,int b)->{return (a*b) ;};
 
 
-        System.out.println(add.compare(55, 5));
-        System.out.println(sub.compare(55, 5));
-        System.out.println(div.compare(55, 10));
-        System.out.println(Multi.compare(55, 5));
+        System.out.println(add.process(55, 5));
+        System.out.println(sub.process(55, 5));
+        System.out.println(div.process(55, 10));
+        System.out.println(Multi.process(55, 5));
         
     }
     

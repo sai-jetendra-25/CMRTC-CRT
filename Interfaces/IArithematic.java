@@ -4,30 +4,36 @@ interface Aritha {
 }
 
 class Add implements Aritha {
+    @Override
     public double process(int x, int y) {
         return x + y;
     }
 }
 
 class Sub implements Aritha {
+
+@Override
     public double process(int x, int y) {
         return x - y;
     }
 }
 
 class Multi implements Aritha {
+    @Override
     public double process(int x, int y) {
         return x * y;
     }
 }
 
 class ModDiv implements Aritha {
+    @Override
     public double process(int x, int y) {
         return x % y;
     }
 }
 
 class Div implements Aritha {
+    @Override
     public double process(int x, int y) {
         if (y == 0)
             return -1;
